@@ -41,4 +41,7 @@ console.log(`Середнє значення цін з 2ма знаками пі
 let sale = Math.floor(Math.random() * 100);
 console.log(`Ціна всіх продуктів - ${sumRound}`);
 console.log(`Знижка - ${sale}%, клієнт заплатить зі знижкою - ${sumRound - (sale * (sumRound / 100))}`);
+console.log(`Собівартість: ${sumRound / 2}`)
+console.log(`Чистий прибуток: ${(sumRound / 2) - (sale * (sumRound / 100))}`)
+
 
