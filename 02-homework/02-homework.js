@@ -22,5 +22,4 @@ for(let i = n; i <= m; i++){
     } else { sum += i;
         console.log(sum, i)
     }
-   
 }
