@@ -4,7 +4,7 @@ const marks = [4, 5, 5, 3, 4, 5];
 
 
 
-//copy = JSON.parse(JSON.stringify(origin))
+//copy = JSON.parse(JSON.stringify(origin)) зі http://stackoverflow.com/
 //спосіб копіювання двомірного масиву, так як копія, яка зроблена spreade(...) вносить зміни в вхіжний масив
 //таким чином ми зберігаємо чистоту функцій, і не змінюємо вхідні дані
 
