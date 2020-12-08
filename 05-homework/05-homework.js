@@ -26,3 +26,11 @@ function getDividedByFive(...nums){
     let sorted = nums.filter(el => el % 5 === 0)
     return sorted
 }
+
+function getMedian(...numbers){
+    // debugger
+    let result = numbers.filter(el => Number.isInteger(el)).map(el => parseInt(el))
+    result.sort((a,b) => a - b)
+
+    return result.length % 2 !== 0 ? result[(result.length - 1) / 2 ] : result[(result.length) / 2 ] - 0.5
+}
