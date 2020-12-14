@@ -19,7 +19,9 @@ for(let i = n; i <= m; i++){
     if(evenNums && i % 2 === 0){
         if(i % 2 == 0)
         continue
-    } else { sum += i;
-        console.log(sum, i)
+    } else { 
+    	sum += i;
     }
-}
+}    
+
+console.log(sum)
