@@ -19,7 +19,7 @@ class Student {
 	}
 
 	getAverageMark(){
-		if(this.marks !== null){
+		if(this.marks !== null && this.marks.length > 1){
 			return this.marks.reduce((acc,mark) => acc + mark ) / this.marks.length	
 		}
 	}
@@ -45,7 +45,7 @@ class BudgetStudent extends Student {
 			if(this.getAverageMark() >= 4){
 				console.log('Ви отримали 1400 грн. стипендії')
 			} 
-		},30000)
+		},1000)
 	}
 }
 
